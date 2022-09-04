@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/mystory
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: moonpro
+    password: 1111
+mybatis:
+  mapper-locations: mybatis-mapper/*.xml
